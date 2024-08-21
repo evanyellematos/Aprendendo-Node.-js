@@ -1,1 +1,45 @@
-[{"id":"3","nome":"Terceiro Livro"},{"id":"5","nome":"Quinto Livro"}]
+    [{"id":"1",
+    "nome":"Liderança em Design"
+    },
+
+    {"id":"2",
+    "nome":"Apache Kafka e Spring Boot"
+    },
+
+    {"id":"3",
+    "nome":"JavaScript Assertivo"
+    }, 
+
+    {
+      "id": "8",
+      "nome": "Entendendo algoritmos"
+    },
+    {
+      "id": "9",
+      "nome": "Cangaceiro Javascript"
+    },
+    {
+      "id": "10",
+      "nome": "Guia básico de C#"
+    },
+    {
+      "id": "11",
+      "nome": "Guia básico de JavaScript"
+    },
+    {
+      "id": "12",
+      "nome": "Código Limpo"
+    },
+    {
+      "id": "13",
+      "nome": "JavaScript para iniciantes"
+    },
+    {
+      "id": "14",
+      "nome": "Conhecendo o python"
+    },
+    {
+      "id": "15",
+      "nome": "Imersão Alura"
+    }
+  ]

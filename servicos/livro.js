@@ -20,7 +20,7 @@ function getTodosLivros(){
 
        }
         function modificaLivro(modificacoes, id){
-            let livrosAtuais = getTodosLivros
+            let livrosAtuais = getTodosLivros()
             const indiceModificado = livrosAtuais.findIndex(livro => livro.id === id)
             const conteudoMudado = {...livrosAtuais [indiceModificado], ...modificacoes }
 
@@ -32,15 +32,14 @@ function getTodosLivros(){
              // modificacoes ->{nome: "livro azul"}
         }
 
-         function deletaLivro( id){
+         function deletaLivro(id){
             const livros = JSON.parse(fs.readFileSync("livros.json"));
 
             const livroFiltrado = livros.filter(livro=>livro.id!==id);
              fs.writeFileSync("livros.JSON", JSON.stringify(livroFiltrado));
 
-   
-
          }
+
 
     module.exports = {
             getTodosLivros,
